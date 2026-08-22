@@ -3,74 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Yiayia - Little Yiayia Helen's Greek Cookbook</title>
-<link rel="stylesheet" href="style.css">
+<title>About Yiayia — Little Yiayia Helen's Greek Cookbook</title>
+<meta name="description" content="The story of Yiayia Helen — born in Chicago, raised by Greek immigrant parents, known in the neighborhood as Little Yiayia. Petite in stature, enormous in heart.">
+<meta property="og:title" content="About Yiayia Helen">
+<meta property="og:description" content="Born in Chicago, raised by Greek immigrant parents. A tribute to Yiayia Helen's kitchen and legacy.">
+<meta property="og:image" content="images/santorini-flag-alley.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Crect width='30' height='20' fill='%23fff'/%3E%3Cpath d='M0 2.2h30v2.2H0zM0 6.7h30v2.2H0zM0 11.2h30v2.2H0zM0 15.7h30v2.2H0z' fill='%231d5fbf'/%3E%3Crect width='11' height='11' fill='%231d5fbf'/%3E%3Cpath d='M4.5 0h2v11h-2zM0 4.5h11v2H0z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-  <div class="flag">
-    <div class="flag-stripe"></div>
-    <span>About Yiayia Helen</span>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+      <span class="brand-name">Little <em>Yiayia</em> Helen's Greek Cookbook</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About Yiayia</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
   </div>
-  <h1>Little Yiayia Helen's Greek Cookbook</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Yiayia</a>
-    <a href="recipes.html">Recipes</a>
-  </nav>
 </header>
+
 <main>
-
-  <h2 class="section-title">About Yiayia Helen</h2>
-
-  <section class="intro">
-    <p>Helen was born in Chicago and raised by her mother and father who came to Chicago from Greece. Growing up on the South Side, she learned to cook at her mother's side, translating old-world flavors with ingredients she could find in Chicago markets.</p>
-    <p>Yiayia was known in the neighborhood as "Little Yiayia" — petite in stature, enormous in heart. Her kitchen was always open, her pantry always stocked with olive oil, dried oregano, and lemons.</p>
-    <p>She taught her children and grandchildren to roll spanakopita, simmer avgolemono, and always, always taste before serving. This cookbook is a tribute to her legacy.</p>
-    <blockquote class="quote">"Food is love you can eat." — Yiayia Helen</blockquote>
+  <section class="hero" aria-label="About introduction">
+    <img src="images/oia-village.jpg" alt="" aria-hidden="true">
+    <div class="hero-content">
+      <span class="hero-kicker">A tribute to</span>
+      <h1>Yiayia Helen</h1>
+      <p>Petite in stature, enormous in heart. Her kitchen was always open, her pantry always stocked with olive oil, dried oregano, and lemons.</p>
+    </div>
   </section>
 
-  <div class="meander"></div>
+  <div class="page">
 
-  <h2 class="section-title">Chicago & Greece</h2>
+    <!-- ABOUT -->
+    <section class="section intro card reveal" aria-labelledby="about-title">
+      <h2 id="about-title">About Yiayia Helen</h2>
+      <p>Helen was born in Chicago and raised by her mother and father who came to Chicago from Greece. Growing up on the South Side, she learned to cook at her mother's side, translating old-world flavors with ingredients she could find in Chicago markets.</p>
+      <p>Yiayia was known in the neighborhood as "Little Yiayia" — petite in stature, enormous in heart. Her kitchen was always open, her pantry always stocked with olive oil, dried oregano, and lemons.</p>
+      <p>She taught her children and grandchildren to roll spanakopita, simmer avgolemono, and always, always taste before serving. This cookbook is a tribute to her legacy.</p>
+      <blockquote class="quote">"Food is love you can eat." — Yiayia Helen</blockquote>
+    </section>
 
-  <section class="intro">
-    <p>Helen's story is the classic Greek-American story: parents who crossed the ocean, a daughter born in Chicago, and a kitchen that became a bridge between two worlds. The blue and white of the Greek flag lives in her tablecloths, her recipes, and the stories she told.</p>
-  </section>
+    <figure class="photo-banner reveal">
+      <img src="images/santorini-flag-alley.jpg" alt="A narrow Greek alley with whitewashed houses and a large Greek flag hanging from a balcony" loading="lazy">
+      <figcaption>The villages her parents spoke of — white houses, blue sea, and the flag above the door.</figcaption>
+    </figure>
 
-  <div class="islands">
-    <div class="island-card">
-      <h4>Family Traditions</h4>
-      <div class="island-image">👨‍👩‍👧‍👦</div>
-      <p>Sunday spanakopita, Christmas melomakarona, and summer tomatoes from the garden.</p>
+    <div class="meander" role="presentation"></div>
+
+    <!-- CHICAGO & GREECE -->
+    <section class="section intro card reveal" aria-labelledby="chicago-title">
+      <h2 id="chicago-title">Chicago &amp; Greece</h2>
+      <p>Helen's story is the classic Greek-American story: parents who crossed the ocean, a daughter born in Chicago, and a kitchen that became a bridge between two worlds. The blue and white of the Greek flag lives in her tablecloths, her recipes, and the stories she told.</p>
+    </section>
+
+    <div class="island-grid">
+      <article class="island-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M12 3v18M7 8h10M7 21h10M5 8h14v4H5zM8 21V12M16 21V12"/></svg>
+        <h4>Family Traditions</h4>
+        <p>Sunday spanakopita, Christmas melomakarona, and summer tomatoes from the garden.</p>
+      </article>
+      <article class="island-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M3 21h18M5 21V7l5-3v17M14 21V10l5-2v13M8 9h.01M8 12h.01M8 15h.01M17 13h.01M17 16h.01"/></svg>
+        <h4>Chicago Roots</h4>
+        <p>South Side markets, Greek festivals, and neighbor kitchens where everyone was family.</p>
+      </article>
+      <article class="island-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 21h16M6 21V10m12 11V10M3 10h18L12 3 3 10z"/></svg>
+        <h4>Greek Heritage</h4>
+        <p>Stories of the islands, the Aegean Sea, and villages where time moved slower.</p>
+      </article>
+      <article class="island-card reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 19V5a2 2 0 0 1 2-2h13v14H6a2 2 0 0 0-2 2zm0 0a2 2 0 0 0 2 2h13M8 7h7"/></svg>
+        <h4>The Cookbook Legacy</h4>
+        <p>Handwritten recipes passed down through generations, now shared with the world.</p>
+      </article>
     </div>
-    <div class="island-card">
-      <h4>Chicago Roots</h4>
-      <div class="island-image">🏙️</div>
-      <p>South Side markets, Greek festivals, and neighbor kitchens where everyone was family.</p>
-    </div>
-    <div class="island-card">
-      <h4>Greek Heritage</h4>
-      <div class="island-image">🏛️</div>
-      <p>Stories of the islands, the Aegean Sea, and villages where time moved slower.</p>
-    </div>
-    <div class="island-card">
-      <h4>The Cookbook Legacy</h4>
-      <div class="island-image">📖</div>
-      <p>Handwritten recipes passed down through generations, now shared with the world.</p>
-    </div>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- TRIBUTE -->
+    <section class="section intro card reveal" aria-labelledby="tribute-title" style="text-align:center">
+      <h2 id="tribute-title">A Tribute</h2>
+      <p>This cookbook exists because Helen believed that food connects us to our roots and to each other. Every recipe here carries a piece of her heart, a story from her kitchen, and a taste of the Greece her parents carried in their memories.</p>
+      <blockquote class="quote" style="text-align:left">"When you cook with love, everyone at the table tastes it." — Yiayia Helen</blockquote>
+      <p style="margin-top:1.5rem"><a class="btn btn-blue" href="recipes.html">Taste Her Legacy — Browse the Recipes</a></p>
+    </section>
+
   </div>
-
-  <div class="meander"></div>
-
-  <section class="intro" style="text-align:center">
-    <h3>A Tribute</h3>
-    <p>This cookbook exists because Helen believed that food connects us to our roots and to each other. Every recipe here carries a piece of her heart, a story from her kitchen, and a taste of the Greece her parents carried in their memories.</p>
-    <blockquote class="quote">"When you cook with love, everyone at the table tastes it." — Yiayia Helen</blockquote>
-  </section>
 </main>
-<footer>
-  <p>&copy; 2026 Little Yiayia Helen's Greek Cookbook — Born in Chicago, rooted in Greece</p>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+        <span>Little Yiayia Helen's Greek Cookbook</span>
+      </div>
+      <p>Born in Chicago, rooted in Greece. Every recipe here carries a piece of Yiayia's heart, a story from her kitchen, and a taste of the Greece her parents carried in their memories.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <h5>Explore</h5>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Yiayia</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
+    <p class="credits">&copy; <span class="year">2026</span> Little Yiayia Helen's Greek Cookbook. Photography by Norbert Nagel, Missvain, Challiyan, Sina.ahm, EUGASTRONOMES, Robert Kindermann, Badseed, Leeturtle, Klearchos Kapoutsis, Geoff Peters, Mvolz, Andy Li, LeonardKong, Benoit5656, Fajardoalacant and Nikodem Nijaki, via <a href="https://commons.wikimedia.org">Wikimedia Commons</a> under CC BY / CC BY-SA / CC0 / public domain licenses.</p>
+  </div>
 </footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

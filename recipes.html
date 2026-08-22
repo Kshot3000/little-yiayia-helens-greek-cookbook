@@ -3,474 +3,716 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Recipes - Little Yiayia Helen's Greek Cookbook</title>
-<link rel="stylesheet" href="style.css">
+<title>Recipes — Little Yiayia Helen's Greek Cookbook</title>
+<meta name="description" content="Seventeen family Greek recipes from Yiayia Helen: tzatziki, dolmades, fasolada, moussaka, souvlaki, baklava and more — with the story behind each dish.">
+<meta property="og:title" content="Yiayia Helen's Recipes">
+<meta property="og:description" content="Seventeen family Greek recipes with stories, ingredients, and instructions.">
+<meta property="og:image" content="images/moussaka.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Crect width='30' height='20' fill='%23fff'/%3E%3Cpath d='M0 2.2h30v2.2H0zM0 6.7h30v2.2H0zM0 11.2h30v2.2H0zM0 15.7h30v2.2H0z' fill='%231d5fbf'/%3E%3Crect width='11' height='11' fill='%231d5fbf'/%3E%3Cpath d='M4.5 0h2v11h-2zM0 4.5h11v2H0z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-  <div class="flag">
-    <div class="flag-stripe"></div>
-    <span>Yiayia's Recipes</span>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+      <span class="brand-name">Little <em>Yiayia</em> Helen's Greek Cookbook</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Yiayia</a>
+      <a href="recipes.html" aria-current="page">Recipes</a>
+    </nav>
   </div>
-  <h1>Little Yiayia Helen's Greek Cookbook</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Yiayia</a>
-    <a href="recipes.html">Recipes</a>
-  </nav>
 </header>
+
 <main>
-
-  <h2 class="section-title">Appetizers & Salads</h2>
-
-  <article class="recipe">
-    <h3>Tzatziki</h3>
-    <div class="recipe-image">🥒</div>
-    <p><em>Story:</em> Always served with warm pita. Yiayia said it should be thick and creamy.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 cups Greek yogurt</li>
-      <li>1 cucumber, grated and drained</li>
-      <li>3 cloves garlic, minced</li>
-      <li>2 tbsp olive oil</li>
-      <li>2 tbsp lemon juice</li>
-      <li>Fresh dill, salt</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Grate cucumber and squeeze out excess water in a clean kitchen towel</li>
-      <li>Mix yogurt, cucumber, garlic, olive oil, and lemon juice in a bowl</li>
-      <li>Season with salt and chopped dill</li>
-      <li>Refrigerate for at least 1 hour before serving</li>
-      <li>Serve chilled with pita bread or grilled meats</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Greek Salad — Horiatiki</h3>
-    <div class="recipe-image">🥗</div>
-    <p><em>Story:</em> No lettuce — just tomatoes, cucumbers, olives and feta. The island way.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>3 ripe tomatoes, wedged</li>
-      <li>1 cucumber, sliced</li>
-      <li>1 red onion, thinly sliced</li>
-      <li>1/2 cup Kalamata olives</li>
-      <li>1 block feta cheese</li>
-      <li>3 tbsp olive oil, oregano</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Place tomatoes, cucumber, and onion in a large bowl</li>
-      <li>Add olives and crumble feta on top</li>
-      <li>Drizzle with olive oil and sprinkle oregano</li>
-      <li>Season with salt and pepper to taste</li>
-      <li>Serve immediately, no dressing needed beyond oil</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Dolmades — Grape Leaf Rolls</h3>
-    <div class="recipe-image">🍃</div>
-    <p><em>Story:</em> Yiayia's mother rolled these every summer with fresh leaves from the yard.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1 jar grape leaves</li>
-      <li>1 cup rice</li>
-      <li>1/2 lb ground lamb</li>
-      <li>1/2 cup chopped parsley</li>
-      <li>1/4 cup lemon juice</li>
-      <li>1/4 cup olive oil</li>
-      <li>Salt, pepper, allspice</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Rinse grape leaves and pat dry</li>
-      <li>Mix rice, lamb, parsley, lemon juice, and spices</li>
-      <li>Place 1 tbsp filling on each leaf, roll tightly</li>
-      <li>Place rolls seam-side down in pot</li>
-      <li>Pour olive oil and water over top, simmer 45 minutes</li>
-      <li>Cool before serving, drizzle with lemon</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Taramosalata</h3>
-    <div class="recipe-image">🧂</div>
-    <p><em>Story:</em> A bright pink spread from the Aegean, served with crusty bread.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1/2 cup tarama (fish roe)</li>
-      <li>2 slices white bread, soaked and squeezed</li>
-      <li>2 tbsp lemon juice</li>
-      <li>2 tbsp olive oil</li>
-      <li>Fresh dill for garnish</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Soak bread in water, squeeze out thoroughly</li>
-      <li>Place tarama and bread in food processor</li>
-      <li>Add lemon juice and olive oil gradually while blending</li>
-      <li>Blend until smooth and creamy pink color</li>
-      <li>Refrigerate 30 minutes before serving</li>
-      <li>Garnish with dill and serve with bread</li>
-    </ol>
-  </article>
-
-  <div class="meander"></div>
-
-  <h2 class="section-title">Soups & Stews</h2>
-
-  <article class="recipe">
-    <h3>Avgolemono Soup</h3>
-    <div class="recipe-image">🍲</div>
-    <p><em>Story:</em> Made when someone was under the weather. Always served hot.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>6 cups chicken broth</li>
-      <li>1/2 cup rice</li>
-      <li>2 eggs</li>
-      <li>1/4 cup lemon juice</li>
-      <li>Salt and pepper</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Bring chicken broth to simmer, add rice and cook 15 minutes</li>
-      <li>In separate bowl, whisk eggs and lemon juice until frothy</li>
-      <li>Slowly add hot broth to egg mixture, whisking constantly</li>
-      <li>Return mixture to pot, do not boil</li>
-      <li>Season with salt and pepper</li>
-      <li>Serve immediately while hot</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Fasolada — White Bean Stew</h3>
-    <div class="recipe-image">🫘</div>
-    <p><em>Story:</em> Called the "Greek national dish" — slow-simmered beans with vegetables.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 cups dried white beans, soaked overnight</li>
-      <li>1 onion, diced</li>
-      <li>2 carrots, chopped</li>
-      <li>1 can crushed tomatoes</li>
-      <li>1/4 cup olive oil</li>
-      <li>Oregano, bay leaf, salt</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Drain soaked beans and place in large pot</li>
-      <li>Add onion, carrots, tomatoes, olive oil, and herbs</li>
-      <li>Cover with water, bring to boil</li>
-      <li>Reduce heat and simmer 2-3 hours until tender</li>
-      <li>Stir occasionally, add water as needed</li>
-      <li>Season with salt and serve hot</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Giouvetsi — Lamb with Orzo</h3>
-    <div class="recipe-image">🍖</div>
-    <p><em>Story:</em> Sunday dinner staple. Tender lamb braised with orzo pasta.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 lbs lamb shoulder, cubed</li>
-      <li>1 cup orzo pasta</li>
-      <li>1 can crushed tomatoes</li>
-      <li>1 cinnamon stick</li>
-      <li>Allspice, salt, pepper</li>
-      <li>Kefalotyri cheese</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Brown lamb in olive oil until seared on all sides</li>
-      <li>Add tomatoes, spices, and water to cover</li>
-      <li>Simmer 1.5 hours until lamb is tender</li>
-      <li>Cook orzo separately according to package</li>
-      <li>Mix orzo with lamb sauce</li>
-      <li>Top with grated kefalotyri cheese before serving</li>
-    </ol>
-  </article>
-
-  <div class="meander"></div>
-
-  <h2 class="section-title">Main Dishes</h2>
-
-  <article class="recipe">
-    <h3>Moussaka</h3>
-    <div class="recipe-image">🍆</div>
-    <p><em>Story:</em> Yiayia's father's favorite. Layers of eggplant, potatoes, and rich béchamel.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 eggplants, sliced</li>
-      <li>2 potatoes, sliced</li>
-      <li>1 lb ground lamb</li>
-      <li>1 can crushed tomatoes</li>
-      <li>1/2 cup béchamel sauce</li>
-      <li>Nutmeg, salt, pepper</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Preheat oven to 375°F</li>
-      <li>Salt eggplant slices, let sit 30 min, then pat dry</li>
-      <li>Fry eggplant and potatoes until golden</li>
-      <li>Brown lamb with tomatoes, season with spices</li>
-      <li>Layer eggplant, potatoes, and meat in baking dish</li>
-      <li>Top with béchamel, bake 45 minutes</li>
-      <li>Cool 10 minutes before serving</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Spanakopita</h3>
-    <div class="recipe-image">🥧</div>
-    <p><em>Story:</em> Sunday mornings, phyllo on the counter, Yiayia humming while rolling.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1 lb fresh spinach, chopped</li>
-      <li>1 cup feta, crumbled</li>
-      <li>2 green onions, sliced</li>
-      <li>1/2 cup olive oil</li>
-      <li>8 sheets phyllo dough</li>
-      <li>3 eggs, beaten</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Preheat oven to 350°F</li>
-      <li>Sauté spinach until wilted, cool completely</li>
-      <li>Mix spinach with feta, onions, eggs, and olive oil</li>
-      <li>Lay phyllo sheets on baking dish, brush with oil</li>
-      <li>Spread spinach mixture evenly</li>
-      <li>Fold phyllo over top, brush with more oil</li>
-      <li>Bake 40 minutes until golden brown</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Briam — Greek Vegetable Bake</h3>
-    <div class="recipe-image">🥒</div>
-    <p><em>Story:</em> Summer tomatoes from the garden, roasted slow.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 zucchini, sliced</li>
-      <li>2 eggplants, cubed</li>
-      <li>4 tomatoes, chopped</li>
-      <li>1 onion, sliced</li>
-      <li>1/4 cup olive oil</li>
-      <li>Oregano, salt, pepper</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Preheat oven to 400°F</li>
-      <li>Arrange vegetables in baking dish in layers</li>
-      <li>Drizzle with olive oil</li>
-      <li>Season with oregano, salt, and pepper</li>
-      <li>Bake 45-60 minutes until vegetables are tender</li>
-      <li>Stir occasionally during baking</li>
-      <li>Serve warm or at room temperature</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Souvlaki — Grilled Pork Skewers</h3>
-    <div class="recipe-image">🍢</div>
-    <p><em>Story:</em> Summer grilling, the whole neighborhood could smell it.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1.5 lbs pork shoulder, cubed</li>
-      <li>4 cloves garlic, minced</li>
-      <li>1/4 cup olive oil</li>
-      <li>Juice of 2 lemons</li>
-      <li>2 tbsp oregano</li>
-      <li>Salt and pepper</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Mix pork with garlic, oil, lemon juice, and oregano</li>
-      <li>Marinate for at least 2 hours, preferably overnight</li>
-      <li>Thread onto skewers</li>
-      <li>Grill over medium heat 8-10 minutes, turning</li>
-      <li>Cook until internal temperature reaches 145°F</li>
-      <li>Serve with pita, tzatziki, and tomato</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Stifado — Beef Stew</h3>
-    <div class="recipe-image">🍲</div>
-    <p><em>Story:</em> Slow-cooked beef with pearl onions and warm spices.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 lbs beef chuck, cubed</li>
-      <li>1 lb pearl onions, peeled</li>
-      <li>1 can crushed tomatoes</li>
-      <li>2 cloves garlic</li>
-      <li>1 cinnamon stick</li>
-      <li>Bay leaf, red wine</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Brown beef cubes in olive oil</li>
-      <li>Add onions, garlic, and cinnamon stick</li>
-      <li>Pour in tomatoes and red wine</li>
-      <li>Bring to simmer, cover, and cook 2 hours</li>
-      <li>Stir occasionally, add water if needed</li>
-      <li>Remove bay leaf and cinnamon before serving</li>
-      <li>Serve with rice or crusty bread</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Fasolakia — Green Beans in Tomato Sauce</h3>
-    <div class="recipe-image">🫛</div>
-    <p><em>Story:</em> Simple, rustic, and always on the table in summer.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1 lb green beans, trimmed</li>
-      <li>1 can crushed tomatoes</li>
-      <li>1 onion, diced</li>
-      <li>1/4 cup olive oil</li>
-      <li>Oregano, salt, pepper</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Sauté onion in olive oil until translucent</li>
-      <li>Add green beans and cook 5 minutes</li>
-      <li>Pour in crushed tomatoes</li>
-      <li>Season with oregano, salt, and pepper</li>
-      <li>Simmer covered 30-40 minutes until tender</li>
-      <li>Stir occasionally during cooking</li>
-      <li>Serve warm as a side dish</li>
-    </ol>
-  </article>
-
-  <div class="meander"></div>
-
-  <h2 class="section-title">Desserts & Sweets</h2>
-
-  <article class="recipe">
-    <h3>Galaktoboureko</h3>
-    <div class="recipe-image">🍮</div>
-    <p><em>Story:</em> Holiday dessert, semolina custard wrapped in phyllo, soaked in syrup.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>6 sheets phyllo dough</li>
-      <li>1 cup semolina</li>
-      <li>1 cup milk</li>
-      <li>1/2 cup sugar</li>
-      <li>1 cup butter, melted</li>
-      <li>Lemon zest for syrup</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Make custard: heat milk, add semolina slowly while whisking</li>
-      <li>Cook until thick, add sugar and cool</li>
-      <li>Layer phyllo with butter between each sheet</li>
-      <li>Spread custard in center</li>
-      <li>Fold phyllo over custard, seal edges</li>
-      <li>Bake at 350°F for 45 minutes until golden</li>
-      <li>Pour hot syrup over hot pastry, cool completely</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Baklava</h3>
-    <div class="recipe-image">🍯</div>
-    <p><em>Story:</em> Crispy layers of phyllo and walnuts, drenched in honey syrup.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>1 lb phyllo dough</li>
-      <li>2 cups walnuts, chopped</li>
-      <li>1 cup butter, melted</li>
-      <li>Cinnamon and cloves</li>
-      <li>1 cup honey, 1/2 cup water</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Preheat oven to 350°F</li>
-      <li>Mix walnuts with cinnamon and cloves</li>
-      <li>Lay 8 phyllo sheets in pan, brushing each with butter</li>
-      <li>Spread 1/3 walnut mixture</li>
-      <li>Repeat layers twice more</li>
-      <li>Cut into diamond shapes before baking</li>
-      <li>Bake 50 minutes until golden</li>
-      <li>Boil honey and water 10 minutes, pour over hot baklava</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Koulourakia — Butter Cookies</h3>
-    <div class="recipe-image">🍪</div>
-    <p><em>Story:</em> Yiayia baked these for Easter and every celebration.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>3 cups flour</li>
-      <li>1 cup butter, softened</li>
-      <li>1/2 cup sugar</li>
-      <li>1 egg</li>
-      <li>Vanilla, orange zest</li>
-      <li>Poppy seeds</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Cream butter and sugar until fluffy</li>
-      <li>Add egg, vanilla, and orange zest</li>
-      <li>Gradually add flour until dough forms</li>
-      <li>Divide dough, roll into ropes 1/2 inch thick</li>
-      <li>Twist ropes into traditional shape</li>
-      <li>Brush with egg wash, sprinkle poppy seeds</li>
-      <li>Bake at 350°F for 20-25 minutes until golden</li>
-      <li>Cool on wire rack before serving</li>
-    </ol>
-  </article>
-
-  <article class="recipe">
-    <h3>Greek Yogurt with Honey</h3>
-    <div class="recipe-image">🥛</div>
-    <p><em>Story:</em> Simple, thick, and drizzled with mountain honey.</p>
-    <h4>Ingredients</h4>
-    <ul>
-      <li>2 cups thick Greek yogurt</li>
-      <li>2 tbsp honey</li>
-      <li>Cinnamon to taste</li>
-      <li>Walnuts or pistachios</li>
-    </ul>
-    <h4>Instructions</h4>
-    <ol>
-      <li>Spoon yogurt into serving bowls</li>
-      <li>Drizzle honey generously over top</li>
-      <li>Sprinkle with cinnamon</li>
-      <li>Add chopped walnuts or pistachios</li>
-      <li>Serve immediately or chill for later</li>
-      <li>Best served with fresh fruit on the side</li>
-    </ol>
-  </article>
-
-  <div class="meander"></div>
-
-  <h2 class="section-title">Island Inspiration</h2>
-  <p style="text-align:center;color:#555;max-width:600px;margin:-1rem auto 1.5rem">Yiayia's parents came from Greece and spoke often of the islands. These flavors traveled with them to Chicago.</p>
-  <div class="islands">
-    <div class="island-card">
-      <h4>Cretan Olive Oil</h4>
-      <p>Robust, peppery oil from Crete. The base of Yiayia's kitchen.</p>
+  <section class="hero" aria-label="Recipes introduction">
+    <img src="images/santorini-flag-alley.jpg" alt="" aria-hidden="true">
+    <div class="hero-content">
+      <span class="hero-kicker">From Yiayia's notebook</span>
+      <h1>The Family Recipes</h1>
+      <p>Seventeen dishes, measured in cups and spoons the way Yiayia taught — each one handwritten, tested, and loved on the South Side of Chicago.</p>
     </div>
-    <div class="island-card">
-      <h4>Santorini Fava</h4>
-      <p>Smooth yellow split pea puree with lemon and olive oil, sunny like the Cyclades.</p>
-    </div>
-    <div class="island-card">
-      <h4>Corfu Pastitsada</h4>
-      <p>Tomato-based meat sauce with cinnamon, a taste of the Ionian.</p>
-    </div>
-    <div class="island-card">
-      <h4>Rhodes Loukoumi</h4>
-      <p>Soft Turkish delight, sweet memories of harbor walks.</p>
-    </div>
+  </section>
+
+  <div class="page">
+
+    <!-- APPETIZERS & SALADS -->
+    <section class="section" aria-labelledby="cat-appetizers">
+      <h2 class="section-title" id="cat-appetizers">Appetizers &amp; Salads</h2>
+      <div class="recipe-grid">
+
+        <article class="recipe reveal" id="tzatziki">
+          <figure class="recipe-figure">
+            <img src="images/tzatziki.jpg" alt="A bowl of creamy tzatziki with fresh cucumber and dill" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Tzatziki</h3>
+            <p class="recipe-story"><em>Story:</em> Always served with warm pita. Yiayia said it should be thick and creamy.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 cups Greek yogurt</li>
+                  <li>1 cucumber, grated and drained</li>
+                  <li>3 cloves garlic, minced</li>
+                  <li>2 tbsp olive oil</li>
+                  <li>2 tbsp lemon juice</li>
+                  <li>Fresh dill, salt</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Grate cucumber and squeeze out excess water in a clean kitchen towel</li>
+                  <li>Mix yogurt, cucumber, garlic, olive oil, and lemon juice in a bowl</li>
+                  <li>Season with salt and chopped dill</li>
+                  <li>Refrigerate for at least 1 hour before serving</li>
+                  <li>Serve chilled with pita bread or grilled meats</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="greek-salad">
+          <figure class="recipe-figure">
+            <img src="images/greek-salad.jpg" alt="A Greek salad of tomatoes, cucumber, red onion, olives, and feta" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Greek Salad — Horiatiki</h3>
+            <p class="recipe-story"><em>Story:</em> No lettuce — just tomatoes, cucumbers, olives and feta. The island way.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>3 ripe tomatoes, wedged</li>
+                  <li>1 cucumber, sliced</li>
+                  <li>1 red onion, thinly sliced</li>
+                  <li>1/2 cup Kalamata olives</li>
+                  <li>1 block feta cheese</li>
+                  <li>3 tbsp olive oil, oregano</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Place tomatoes, cucumber, and onion in a large bowl</li>
+                  <li>Add olives and crumble feta on top</li>
+                  <li>Drizzle with olive oil and sprinkle oregano</li>
+                  <li>Season with salt and pepper to taste</li>
+                  <li>Serve immediately, no dressing needed beyond oil</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="dolmades">
+          <figure class="recipe-figure">
+            <img src="images/dolmades.jpg" alt="A plate of Greek dolmades, stuffed grape leaves, with a small Greek flag" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Dolmades — Grape Leaf Rolls</h3>
+            <p class="recipe-story"><em>Story:</em> Yiayia's mother rolled these every summer with fresh leaves from the yard.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 jar grape leaves</li>
+                  <li>1 cup rice</li>
+                  <li>1/2 lb ground lamb</li>
+                  <li>1/2 cup chopped parsley</li>
+                  <li>1/4 cup lemon juice</li>
+                  <li>1/4 cup olive oil</li>
+                  <li>Salt, pepper, allspice</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Rinse grape leaves and pat dry</li>
+                  <li>Mix rice, lamb, parsley, lemon juice, and spices</li>
+                  <li>Place 1 tbsp filling on each leaf, roll tightly</li>
+                  <li>Place rolls seam-side down in pot</li>
+                  <li>Pour olive oil and water over top, simmer 45 minutes</li>
+                  <li>Cool before serving, drizzle with lemon</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="taramosalata">
+          <figure class="recipe-figure">
+            <img src="images/taramosalata.jpg" alt="A plate of bright pink taramosalata with tomato garnish" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Taramosalata</h3>
+            <p class="recipe-story"><em>Story:</em> A bright pink spread from the Aegean, served with crusty bread.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1/2 cup tarama (fish roe)</li>
+                  <li>2 slices white bread, soaked and squeezed</li>
+                  <li>2 tbsp lemon juice</li>
+                  <li>2 tbsp olive oil</li>
+                  <li>Fresh dill for garnish</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Soak bread in water, squeeze out thoroughly</li>
+                  <li>Place tarama and bread in food processor</li>
+                  <li>Add lemon juice and olive oil gradually while blending</li>
+                  <li>Blend until smooth and creamy pink color</li>
+                  <li>Refrigerate 30 minutes before serving</li>
+                  <li>Garnish with dill and serve with bread</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- SOUPS & STEWS -->
+    <section class="section" aria-labelledby="cat-soups">
+      <h2 class="section-title" id="cat-soups">Soups &amp; Stews</h2>
+      <div class="recipe-grid">
+
+        <article class="recipe reveal" id="avgolemono">
+          <figure class="recipe-figure">
+            <img src="images/avgolemono.jpg" alt="A bowl of creamy yellow avgolemono lemon soup" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Avgolemono Soup</h3>
+            <p class="recipe-story"><em>Story:</em> Made when someone was under the weather. Always served hot.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>6 cups chicken broth</li>
+                  <li>1/2 cup rice</li>
+                  <li>2 eggs</li>
+                  <li>1/4 cup lemon juice</li>
+                  <li>Salt and pepper</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Bring chicken broth to simmer, add rice and cook 15 minutes</li>
+                  <li>In separate bowl, whisk eggs and lemon juice until frothy</li>
+                  <li>Slowly add hot broth to egg mixture, whisking constantly</li>
+                  <li>Return mixture to pot, do not boil</li>
+                  <li>Season with salt and pepper</li>
+                  <li>Serve immediately while hot</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="fasolada">
+          <figure class="recipe-figure">
+            <img src="images/fasolada.jpg" alt="A bowl of fasolada, slow-simmered Greek white bean stew" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Fasolada — White Bean Stew</h3>
+            <p class="recipe-story"><em>Story:</em> Called the "Greek national dish" — slow-simmered beans with vegetables.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 cups dried white beans, soaked overnight</li>
+                  <li>1 onion, diced</li>
+                  <li>2 carrots, chopped</li>
+                  <li>1 can crushed tomatoes</li>
+                  <li>1/4 cup olive oil</li>
+                  <li>Oregano, bay leaf, salt</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Drain soaked beans and place in large pot</li>
+                  <li>Add onion, carrots, tomatoes, olive oil, and herbs</li>
+                  <li>Cover with water, bring to boil</li>
+                  <li>Reduce heat and simmer 2-3 hours until tender</li>
+                  <li>Stir occasionally, add water as needed</li>
+                  <li>Season with salt and serve hot</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="giouvetsi">
+          <figure class="recipe-figure">
+            <img src="images/giouvetsi.jpg" alt="Giouvetsi, braised lamb served with orzo pasta" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Giouvetsi — Lamb with Orzo</h3>
+            <p class="recipe-story"><em>Story:</em> Sunday dinner staple. Tender lamb braised with orzo pasta.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 lbs lamb shoulder, cubed</li>
+                  <li>1 cup orzo pasta</li>
+                  <li>1 can crushed tomatoes</li>
+                  <li>1 cinnamon stick</li>
+                  <li>Allspice, salt, pepper</li>
+                  <li>Kefalotyri cheese</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Brown lamb in olive oil until seared on all sides</li>
+                  <li>Add tomatoes, spices, and water to cover</li>
+                  <li>Simmer 1.5 hours until lamb is tender</li>
+                  <li>Cook orzo separately according to package</li>
+                  <li>Mix orzo with lamb sauce</li>
+                  <li>Top with grated kefalotyri cheese before serving</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- MAIN DISHES -->
+    <section class="section" aria-labelledby="cat-mains">
+      <h2 class="section-title" id="cat-mains">Main Dishes</h2>
+      <div class="recipe-grid">
+
+        <article class="recipe reveal" id="moussaka">
+          <figure class="recipe-figure">
+            <img src="images/moussaka.jpg" alt="A plated slice of moussaka with eggplant, lamb, and béchamel" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Moussaka</h3>
+            <p class="recipe-story"><em>Story:</em> Yiayia's father's favorite. Layers of eggplant, potatoes, and rich béchamel.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 eggplants, sliced</li>
+                  <li>2 potatoes, sliced</li>
+                  <li>1 lb ground lamb</li>
+                  <li>1 can crushed tomatoes</li>
+                  <li>1/2 cup béchamel sauce</li>
+                  <li>Nutmeg, salt, pepper</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Preheat oven to 375°F</li>
+                  <li>Salt eggplant slices, let sit 30 min, then pat dry</li>
+                  <li>Fry eggplant and potatoes until golden</li>
+                  <li>Brown lamb with tomatoes, season with spices</li>
+                  <li>Layer eggplant, potatoes, and meat in baking dish</li>
+                  <li>Top with béchamel, bake 45 minutes</li>
+                  <li>Cool 10 minutes before serving</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="spanakopita">
+          <figure class="recipe-figure">
+            <img src="images/spanakopita.jpg" alt="Slices of golden spanakopita, a spinach and feta phyllo pie" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Spanakopita</h3>
+            <p class="recipe-story"><em>Story:</em> Sunday mornings, phyllo on the counter, Yiayia humming while rolling.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 lb fresh spinach, chopped</li>
+                  <li>1 cup feta, crumbled</li>
+                  <li>2 green onions, sliced</li>
+                  <li>1/2 cup olive oil</li>
+                  <li>8 sheets phyllo dough</li>
+                  <li>3 eggs, beaten</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Preheat oven to 350°F</li>
+                  <li>Sauté spinach until wilted, cool completely</li>
+                  <li>Mix spinach with feta, onions, eggs, and olive oil</li>
+                  <li>Lay phyllo sheets on baking dish, brush with oil</li>
+                  <li>Spread spinach mixture evenly</li>
+                  <li>Fold phyllo over top, brush with more oil</li>
+                  <li>Bake 40 minutes until golden brown</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="briam">
+          <figure class="recipe-figure">
+            <img src="images/briam.jpg" alt="Briam, a Greek vegetable bake of zucchini, eggplant, and tomatoes" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Briam — Greek Vegetable Bake</h3>
+            <p class="recipe-story"><em>Story:</em> Summer tomatoes from the garden, roasted slow.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 zucchini, sliced</li>
+                  <li>2 eggplants, cubed</li>
+                  <li>4 tomatoes, chopped</li>
+                  <li>1 onion, sliced</li>
+                  <li>1/4 cup olive oil</li>
+                  <li>Oregano, salt, pepper</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Preheat oven to 400°F</li>
+                  <li>Arrange vegetables in baking dish in layers</li>
+                  <li>Drizzle with olive oil</li>
+                  <li>Season with oregano, salt, and pepper</li>
+                  <li>Bake 45-60 minutes until vegetables are tender</li>
+                  <li>Stir occasionally during baking</li>
+                  <li>Serve warm or at room temperature</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="souvlaki">
+          <figure class="recipe-figure">
+            <img src="images/souvlaki.jpg" alt="Grilled souvlaki skewers served with pita, fries, and tomato" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Souvlaki — Grilled Pork Skewers</h3>
+            <p class="recipe-story"><em>Story:</em> Summer grilling, the whole neighborhood could smell it.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1.5 lbs pork shoulder, cubed</li>
+                  <li>4 cloves garlic, minced</li>
+                  <li>1/4 cup olive oil</li>
+                  <li>Juice of 2 lemons</li>
+                  <li>2 tbsp oregano</li>
+                  <li>Salt and pepper</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Mix pork with garlic, oil, lemon juice, and oregano</li>
+                  <li>Marinate for at least 2 hours, preferably overnight</li>
+                  <li>Thread onto skewers</li>
+                  <li>Grill over medium heat 8-10 minutes, turning</li>
+                  <li>Cook until internal temperature reaches 145°F</li>
+                  <li>Serve with pita, tzatziki, and tomato</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="stifado">
+          <figure class="recipe-figure">
+            <img src="images/stifado.jpg" alt="Stifado, a slow-cooked Greek beef stew with pearl onions" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Stifado — Beef Stew</h3>
+            <p class="recipe-story"><em>Story:</em> Slow-cooked beef with pearl onions and warm spices.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 lbs beef chuck, cubed</li>
+                  <li>1 lb pearl onions, peeled</li>
+                  <li>1 can crushed tomatoes</li>
+                  <li>2 cloves garlic</li>
+                  <li>1 cinnamon stick</li>
+                  <li>Bay leaf, red wine</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Brown beef cubes in olive oil</li>
+                  <li>Add onions, garlic, and cinnamon stick</li>
+                  <li>Pour in tomatoes and red wine</li>
+                  <li>Bring to simmer, cover, and cook 2 hours</li>
+                  <li>Stir occasionally, add water if needed</li>
+                  <li>Remove bay leaf and cinnamon before serving</li>
+                  <li>Serve with rice or crusty bread</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="fasolakia">
+          <figure class="recipe-figure">
+            <img src="images/fasolakia.jpg" alt="Fasolakia, Greek green beans simmered in tomato sauce" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Fasolakia — Green Beans in Tomato Sauce</h3>
+            <p class="recipe-story"><em>Story:</em> Simple, rustic, and always on the table in summer.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 lb green beans, trimmed</li>
+                  <li>1 can crushed tomatoes</li>
+                  <li>1 onion, diced</li>
+                  <li>1/4 cup olive oil</li>
+                  <li>Oregano, salt, pepper</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Sauté onion in olive oil until translucent</li>
+                  <li>Add green beans and cook 5 minutes</li>
+                  <li>Pour in crushed tomatoes</li>
+                  <li>Season with oregano, salt, and pepper</li>
+                  <li>Simmer covered 30-40 minutes until tender</li>
+                  <li>Stir occasionally during cooking</li>
+                  <li>Serve warm as a side dish</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- DESSERTS & SWEETS -->
+    <section class="section" aria-labelledby="cat-desserts">
+      <h2 class="section-title" id="cat-desserts">Desserts &amp; Sweets</h2>
+      <div class="recipe-grid">
+
+        <article class="recipe reveal" id="galaktoboureko">
+          <figure class="recipe-figure">
+            <img src="images/galaktoboureko.jpg" alt="Slices of galaktoboureko, custard in crisp phyllo with syrup" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Galaktoboureko</h3>
+            <p class="recipe-story"><em>Story:</em> Holiday dessert, semolina custard wrapped in phyllo, soaked in syrup.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>6 sheets phyllo dough</li>
+                  <li>1 cup semolina</li>
+                  <li>1 cup milk</li>
+                  <li>1/2 cup sugar</li>
+                  <li>1 cup butter, melted</li>
+                  <li>Lemon zest for syrup</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Make custard: heat milk, add semolina slowly while whisking</li>
+                  <li>Cook until thick, add sugar and cool</li>
+                  <li>Layer phyllo with butter between each sheet</li>
+                  <li>Spread custard in center</li>
+                  <li>Fold phyllo over custard, seal edges</li>
+                  <li>Bake at 350°F for 45 minutes until golden</li>
+                  <li>Pour hot syrup over hot pastry, cool completely</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="baklava">
+          <figure class="recipe-figure">
+            <img src="images/baklava.jpg" alt="Diamond-cut pieces of baklava layered with walnuts" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Baklava</h3>
+            <p class="recipe-story"><em>Story:</em> Crispy layers of phyllo and walnuts, drenched in honey syrup.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>1 lb phyllo dough</li>
+                  <li>2 cups walnuts, chopped</li>
+                  <li>1 cup butter, melted</li>
+                  <li>Cinnamon and cloves</li>
+                  <li>1 cup honey, 1/2 cup water</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Preheat oven to 350°F</li>
+                  <li>Mix walnuts with cinnamon and cloves</li>
+                  <li>Lay 8 phyllo sheets in pan, brushing each with butter</li>
+                  <li>Spread 1/3 walnut mixture</li>
+                  <li>Repeat layers twice more</li>
+                  <li>Cut into diamond shapes before baking</li>
+                  <li>Bake 50 minutes until golden</li>
+                  <li>Boil honey and water 10 minutes, pour over hot baklava</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="koulourakia">
+          <figure class="recipe-figure">
+            <img src="images/koulourakia.jpg" alt="Twisted koulourakia butter cookies with poppy seeds on a table with a Greek flag" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Koulourakia — Butter Cookies</h3>
+            <p class="recipe-story"><em>Story:</em> Yiayia baked these for Easter and every celebration.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>3 cups flour</li>
+                  <li>1 cup butter, softened</li>
+                  <li>1/2 cup sugar</li>
+                  <li>1 egg</li>
+                  <li>Vanilla, orange zest</li>
+                  <li>Poppy seeds</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Cream butter and sugar until fluffy</li>
+                  <li>Add egg, vanilla, and orange zest</li>
+                  <li>Gradually add flour until dough forms</li>
+                  <li>Divide dough, roll into ropes 1/2 inch thick</li>
+                  <li>Twist ropes into traditional shape</li>
+                  <li>Brush with egg wash, sprinkle poppy seeds</li>
+                  <li>Bake at 350°F for 20-25 minutes until golden</li>
+                  <li>Cool on wire rack before serving</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <article class="recipe reveal" id="yogurt-honey">
+          <figure class="recipe-figure">
+            <img src="images/yogurt-honey.jpg" alt="Thick Greek yogurt drizzled with honey and topped with fruit" loading="lazy">
+          </figure>
+          <div class="recipe-body">
+            <h3>Greek Yogurt with Honey</h3>
+            <p class="recipe-story"><em>Story:</em> Simple, thick, and drizzled with mountain honey.</p>
+            <div class="recipe-cols">
+              <section>
+                <h4>Ingredients</h4>
+                <ul>
+                  <li>2 cups thick Greek yogurt</li>
+                  <li>2 tbsp honey</li>
+                  <li>Cinnamon to taste</li>
+                  <li>Walnuts or pistachios</li>
+                </ul>
+              </section>
+              <section>
+                <h4>Instructions</h4>
+                <ol>
+                  <li>Spoon yogurt into serving bowls</li>
+                  <li>Drizzle honey generously over top</li>
+                  <li>Sprinkle with cinnamon</li>
+                  <li>Add chopped walnuts or pistachios</li>
+                  <li>Serve immediately or chill for later</li>
+                  <li>Best served with fresh fruit on the side</li>
+                </ol>
+              </section>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- ISLAND INSPIRATION -->
+    <section class="section" aria-labelledby="island-inspiration">
+      <h2 class="section-title" id="island-inspiration">Island Inspiration</h2>
+      <p class="section-sub">Yiayia's parents came from Greece and spoke often of the islands. These flavors traveled with them to Chicago.</p>
+      <div class="island-grid">
+        <article class="island-card reveal">
+          <h4>Cretan Olive Oil</h4>
+          <p>Robust, peppery oil from Crete. The base of Yiayia's kitchen.</p>
+        </article>
+        <article class="island-card reveal">
+          <h4>Santorini Fava</h4>
+          <p>Smooth yellow split pea puree with lemon and olive oil, sunny like the Cyclades.</p>
+        </article>
+        <article class="island-card reveal">
+          <h4>Corfu Pastitsada</h4>
+          <p>Tomato-based meat sauce with cinnamon, a taste of the Ionian.</p>
+        </article>
+        <article class="island-card reveal">
+          <h4>Rhodes Loukoumi</h4>
+          <p>Soft Turkish delight, sweet memories of harbor walks.</p>
+        </article>
+      </div>
+    </section>
+
   </div>
 </main>
-<footer>
-  <p>&copy; 2026 Little Yiayia Helen's Greek Cookbook — Born in Chicago, rooted in Greece</p>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+        <span>Little Yiayia Helen's Greek Cookbook</span>
+      </div>
+      <p>Born in Chicago, rooted in Greece. Every recipe here carries a piece of Yiayia's heart, a story from her kitchen, and a taste of the Greece her parents carried in their memories.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <h5>Explore</h5>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Yiayia</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
+    <p class="credits">&copy; <span class="year">2026</span> Little Yiayia Helen's Greek Cookbook. Photography by Norbert Nagel, Missvain, Challiyan, Sina.ahm, EUGASTRONOMES, Robert Kindermann, Badseed, Leeturtle, Klearchos Kapoutsis, Geoff Peters, Mvolz, Andy Li, LeonardKong, Benoit5656, Fajardoalacant and Nikodem Nijaki, via <a href="https://commons.wikimedia.org">Wikimedia Commons</a> under CC BY / CC BY-SA / CC0 / public domain licenses.</p>
+  </div>
 </footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

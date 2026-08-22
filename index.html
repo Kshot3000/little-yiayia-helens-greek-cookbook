@@ -4,118 +4,152 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Little Yiayia Helen's Greek Cookbook</title>
-<link rel="stylesheet" href="style.css">
+<meta name="description" content="Family Greek recipes and stories from Yiayia Helen's Chicago kitchen — spanakopita, moussaka, tzatziki and more, with inspiration from Crete, Santorini, Corfu and beyond.">
+<meta property="og:title" content="Little Yiayia Helen's Greek Cookbook">
+<meta property="og:description" content="From Chicago kitchens to the Greek islands — recipes, stories, and love.">
+<meta property="og:image" content="images/oia-village.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Crect width='30' height='20' fill='%23fff'/%3E%3Cpath d='M0 2.2h30v2.2H0zM0 6.7h30v2.2H0zM0 11.2h30v2.2H0zM0 15.7h30v2.2H0z' fill='%231d5fbf'/%3E%3Crect width='11' height='11' fill='%231d5fbf'/%3E%3Cpath d='M4.5 0h2v11h-2zM0 4.5h11v2H0z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-  <div class="flag">
-    <div class="flag-stripe"></div>
-    <span>Little Yiayia Helen's Greek Cookbook</span>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+      <span class="brand-name">Little <em>Yiayia</em> Helen's Greek Cookbook</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About Yiayia</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
   </div>
-  <h1>Little Yiayia Helen's Greek Cookbook</h1>
-  <p class="tagline">From Chicago kitchens to the Greek islands — recipes, stories, and love</p>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Yiayia</a>
-    <a href="recipes.html">Recipes</a>
-  </nav>
 </header>
 
 <main>
   <!-- HERO -->
-  <section class="hero">
-    <div class="hero-image">🍽️</div>
-    <div class="hero-text">
-      <h2>Welcome to Yiayia's Kitchen</h2>
-      <p>Helen was born in Chicago and raised by her mother and father who came to Chicago from Greece. This cookbook preserves the flavors, stories, and love she passed down through generations, with inspiration from Crete, Santorini, Corfu and beyond.</p>
-      <a class="btn" href="recipes.html">Explore Recipes</a>
+  <section class="hero" aria-label="Welcome">
+    <img src="images/oia-village.jpg" alt="" aria-hidden="true">
+    <div class="hero-content">
+      <span class="hero-kicker">Yassas! Welcome to</span>
+      <h1>Little Yiayia Helen's Greek Cookbook</h1>
+      <p>From Chicago kitchens to the Greek islands — family recipes, stories, and a lot of olive oil. Born in the South Side, rooted in Crete, Santorini, Corfu and beyond.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="recipes.html">Explore the Recipes</a>
+        <a class="btn btn-ghost" href="about.html">Meet Yiayia</a>
+      </div>
     </div>
   </section>
 
-  <div class="meander"></div>
-
-  <!-- INTRO -->
-  <section class="intro">
-    <h3>From Our Family to Yours</h3>
-    <p>Each recipe here was handwritten, tested, and loved in Helen's kitchen on the South Side of Chicago. Made with simple ingredients, a lot of olive oil, and always with family around the table.</p>
-    <ul class="highlights">
-      <li>Family-tested recipes from Chicago and the islands</li>
-      <li>Stories behind each dish</li>
-      <li>Measurements in cups and spoons, just like Yiayia used</li>
-      <li>Greek flag colors and island inspiration throughout</li>
-    </ul>
-  </section>
-
-  <!-- ISLAND ROOTS -->
-  <h2 class="section-title">Island Roots</h2>
-  <p style="text-align:center;color:#555;max-width:650px;margin:-1rem auto 1.5rem">Yiayia's parents spoke of blue seas, whitewashed villages, and the scent of oregano on the wind. We honor those memories.</p>
-  <div class="islands">
-    <div class="island-card">
-      <h4>Crete</h4>
-      <div class="island-image">🏝️</div>
-      <p>Olive oil, dakos, and hearty mountain flavors.</p>
-    </div>
-    <div class="island-card">
-      <h4>Santorini</h4>
-      <div class="island-image">🏘️</div>
-      <p>Fava, cherry tomatoes, and sea breezes.</p>
-    </div>
-    <div class="island-card">
-      <h4>Corfu</h4>
-      <div class="island-image">🌊</div>
-      <p>Pastitsada and citrus bright dishes.</p>
-    </div>
-    <div class="island-card">
-      <h4>Rhodes</h4>
-      <div class="island-image">🏰</div>
-      <p>Sweet loukoumi and spiced meats.</p>
-    </div>
-  </div>
-
-  <div class="meander"></div>
-
-  <!-- FEATURED RECIPES -->
-  <h2 class="section-title">Featured Recipes</h2>
-  <div class="islands" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
-    <div class="recipe" style="margin:0">
-      <h3>Spanakopita</h3>
-      <div class="recipe-image">🥧</div>
-      <p><em>Sunday mornings, phyllo on the counter, Yiayia humming while rolling.</em></p>
+  <div class="page">
+    <!-- INTRO -->
+    <section class="section intro card reveal" aria-labelledby="intro-title">
+      <h2 id="intro-title">From Our Family to Yours</h2>
+      <p>Each recipe here was handwritten, tested, and loved in Helen's kitchen on the South Side of Chicago. Made with simple ingredients, a lot of olive oil, and always with family around the table.</p>
       <ul>
-        <li>1 lb fresh spinach, chopped</li>
-        <li>1 cup feta, crumbled</li>
-        <li>8 sheets phyllo dough</li>
+        <li>Family-tested recipes from Chicago and the islands</li>
+        <li>A story behind every dish</li>
+        <li>Measurements in cups and spoons, just like Yiayia used</li>
+        <li>Greek flag blue and white with island inspiration throughout</li>
       </ul>
-    </div>
-    <div class="recipe" style="margin:0">
-      <h3>Moussaka</h3>
-      <div class="recipe-image">🍆</div>
-      <p><em>Yiayia's father's favorite. Layers of eggplant, potatoes, and rich béchamel.</em></p>
-      <ul>
-        <li>2 eggplants, sliced</li>
-        <li>1 lb ground lamb</li>
-        <li>Béchamel with nutmeg</li>
-      </ul>
-    </div>
-    <div class="recipe" style="margin:0">
-      <h3>Greek Salad</h3>
-      <div class="recipe-image">🥗</div>
-      <p><em>No lettuce — just tomatoes, cucumbers, olives and feta. The island way.</em></p>
-      <ul>
-        <li>3 ripe tomatoes</li>
-        <li>Kalamata olives</li>
-        <li>Feta block, oregano</li>
-      </ul>
-    </div>
-  </div>
+    </section>
 
-  <div style="text-align:center;margin:2rem 0">
-    <a class="btn btn-gold" href="recipes.html">View All Recipes</a>
+    <div class="meander" role="presentation"></div>
+
+    <!-- ISLAND ROOTS -->
+    <section class="section" aria-labelledby="islands-title">
+      <h2 class="section-title" id="islands-title">Island Roots</h2>
+      <p class="section-sub">Yiayia's parents spoke of blue seas, whitewashed villages, and the scent of oregano on the wind. We honor those memories.</p>
+      <div class="island-grid">
+        <article class="island-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M12 21c0-6 2-11 8-16-8 0-12 4-12 9"/><path d="M12 21c0-4-1-7-6-9 0 4 2 7 6 9z"/><circle cx="18" cy="17" r="2.4"/></svg>
+          <h4>Crete</h4>
+          <p>Olive oil, dakos, and hearty mountain flavors.</p>
+        </article>
+        <article class="island-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 20v-8a8 8 0 0 1 16 0v8"/><path d="M2 20h20"/><path d="M12 4V2"/></svg>
+          <h4>Santorini</h4>
+          <p>Fava, cherry tomatoes, and sea breezes.</p>
+        </article>
+        <article class="island-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2 12c2.5-3 5.5-3 8 0s5.5 3 8 0 4-2 4-2"/><path d="M2 18c2.5-3 5.5-3 8 0s5.5 3 8 0 4-2 4-2"/></svg>
+          <h4>Corfu</h4>
+          <p>Pastitsada and citrus bright dishes.</p>
+        </article>
+        <article class="island-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 21V8l3-2v2l2-2v2l3-2v2l3-2v2l2-2v2l3-2v13"/><path d="M2 21h20"/></svg>
+          <h4>Rhodes</h4>
+          <p>Sweet loukoumi and spiced meats.</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="meander" role="presentation"></div>
+
+    <!-- FEATURED RECIPES -->
+    <section class="section" aria-labelledby="featured-title">
+      <h2 class="section-title" id="featured-title">Featured Recipes</h2>
+      <p class="section-sub">Three favorites from the family cookbook — each one carries a story from Yiayia's kitchen.</p>
+      <div class="featured-grid">
+        <article class="featured reveal">
+          <img src="images/spanakopita.jpg" alt="A golden-baked spanakopita, a spinach and feta pie in flaky phyllo" loading="lazy">
+          <div class="featured-body">
+            <h3>Spanakopita</h3>
+            <p><em>Sunday mornings, phyllo on the counter, Yiayia humming while rolling.</em> Spinach, feta, and green onions wrapped in crisp golden phyllo.</p>
+            <a href="recipes.html#spanakopita">Read the recipe &rarr;</a>
+          </div>
+        </article>
+        <article class="featured reveal">
+          <img src="images/moussaka.jpg" alt="A plated slice of Greek moussaka with eggplant, lamb, and béchamel" loading="lazy">
+          <div class="featured-body">
+            <h3>Moussaka</h3>
+            <p><em>Yiayia's father's favorite.</em> Layers of eggplant, potatoes, and rich béchamel, baked until golden and comforting.</p>
+            <a href="recipes.html#moussaka">Read the recipe &rarr;</a>
+          </div>
+        </article>
+        <article class="featured reveal">
+          <img src="images/greek-salad.jpg" alt="A Greek salad of tomatoes, cucumber, olives, and feta" loading="lazy">
+          <div class="featured-body">
+            <h3>Greek Salad — Horiatiki</h3>
+            <p><em>No lettuce — just tomatoes, cucumbers, olives and feta. The island way.</em> Drizzled with olive oil and oregano.</p>
+            <a href="recipes.html#greek-salad">Read the recipe &rarr;</a>
+          </div>
+        </article>
+      </div>
+      <p style="text-align:center;margin:2.25rem 0 0">
+        <a class="btn btn-blue" href="recipes.html">View All 17 Recipes</a>
+      </p>
+    </section>
   </div>
 </main>
 
-<footer>
-  <p>&copy; 2026 Little Yiayia Helen's Greek Cookbook. Born in Chicago, rooted in Greece.</p>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <span class="flag" aria-hidden="true"><span class="flag-cross"></span></span>
+        <span>Little Yiayia Helen's Greek Cookbook</span>
+      </div>
+      <p>Born in Chicago, rooted in Greece. Every recipe here carries a piece of Yiayia's heart, a story from her kitchen, and a taste of the Greece her parents carried in their memories.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <h5>Explore</h5>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Yiayia</a>
+      <a href="recipes.html">Recipes</a>
+    </nav>
+    <p class="credits">&copy; <span class="year">2026</span> Little Yiayia Helen's Greek Cookbook. Photography by Norbert Nagel, Missvain, Challiyan, Sina.ahm, EUGASTRONOMES, Robert Kindermann, Badseed, Leeturtle, Klearchos Kapoutsis, Geoff Peters, Mvolz, Andy Li, LeonardKong, Benoit5656, Fajardoalacant and Nikodem Nijaki, via <a href="https://commons.wikimedia.org">Wikimedia Commons</a> under CC BY / CC BY-SA / CC0 / public domain licenses.</p>
+  </div>
 </footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
