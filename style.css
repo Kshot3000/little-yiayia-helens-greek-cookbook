@@ -27,13 +27,28 @@ body{
 }
 
 h1,h2,h3,h4{font-family:'Playfair Display',serif;font-weight:700}
-script.accent{font-family:'Dancing Script',cursive;color:var(--gold)}
+
+/* ===== IMAGES ===== */
+img{max-width:100%;height:auto;display:block}
+.recipe img,.island-card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+  margin:.6rem 0;
+  box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+.hero img{
+  width:100%;
+  height:100%;
+  min-height:320px;
+  object-fit:cover;
+  display:block;
+}
 
 /* HEADER */
 header{
-  background:
-    linear-gradient(180deg,var(--greek-blue),var(--greek-blue-deep)),
-    url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Crect width='40' height='40'/%3E%3C/g%3E%3C/svg%3E");
+  background:linear-gradient(180deg,var(--greek-blue),var(--greek-blue-deep));
   color:white;
   padding:2rem 1rem 1.5rem;
   text-align:center;
@@ -103,12 +118,6 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
   overflow:hidden;
   box-shadow:var(--shadow);
   border:1px solid rgba(13,94,175,.08);
-}
-.hero img{
-  width:100%;height:100%;
-  object-fit:cover;
-  display:block;
-  min-height:320px;
 }
 .hero-text{
   padding:2.5rem;
@@ -219,12 +228,6 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
   margin-top:0;
   font-size:1.4rem;
 }
-.recipe img{
-  width:100%;
-  border-radius:12px;
-  margin:.6rem 0;
-  box-shadow:0 4px 12px rgba(0,0,0,.1);
-}
 .recipe p{color:#555;margin:.4rem 0}
 .recipe ul{margin:.5rem 0 0;padding-left:1.2rem;color:#444}
 .recipe li{margin:.3rem 0}
@@ -255,10 +258,6 @@ main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem}
   opacity:.5;
 }
 .island-card h4{margin-top:0;color:var(--greek-blue-dark)}
-.island-card img{
-  width:100%;border-radius:8px;margin:.5rem 0;
-  box-shadow:0 2px 8px rgba(0,0,0,.08);
-}
 .island-card p{color:#555;font-size:.95rem}
 
 /* FLAG STRIPE */
@@ -304,8 +303,7 @@ footer{
   padding:3rem 1.5rem;
   font-size:.95rem;
   color:white;
-  background:
-    linear-gradient(180deg,var(--greek-blue-deep),var(--greek-blue-dark));
+  background:linear-gradient(180deg,var(--greek-blue-deep),var(--greek-blue-dark));
   margin-top:3rem;
   border-top:6px solid var(--gold);
   position:relative;
@@ -326,4 +324,5 @@ footer p{margin:0}
   .highlights{columns:1}
   header h1{font-size:1.8rem}
   .hero-text h2{font-size:1.7rem}
+  .recipe img,.island-card img{height:180px}
 }
